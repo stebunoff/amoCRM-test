@@ -1,0 +1,9 @@
+.button {
+  border: none;
+
+  &--cta {
+    color: $text;
+
+    background-color: $accent;
+  }
+}
