@@ -1,6 +1,13 @@
 .headline-group__headline {
   font-family: $ff-inter;
   font-weight: 400;
+  font-size: 36px;
+  line-height: 43.57px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 48px;
+    line-height: 58.09px;
+  }
 }
 
 .headline-group__highlighted {
@@ -11,4 +18,6 @@
 .headline-group__subheadline {
   font-family: $ff-montserrat;
   font-weight: 400;
+  font-size: 18px;
+  line-height: 21.94px;
 }

@@ -1,16 +1,33 @@
 .footer__headline {
   font-family: $ff-inter;
   font-weight: 700;
+  font-size: 12px;
+  line-height: 14.52px;
+  letter-spacing: 1px;
 
   color: $dark-grey;
+
+  @media (min-width: $desktop-width) {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
 }
 
 .footer__text {
   font-family: $ff-inter;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 16px;
+    line-height: 19.36px;
+  }
 }
 
 .footer__legal {
   font-family: $ff-montserrat;
   font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
 }
