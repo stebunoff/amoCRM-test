@@ -1,3 +1,16 @@
 .footer__headline {
+  font-family: $ff-inter;
+  font-weight: 700;
+
   color: $dark-grey;
+}
+
+.footer__text {
+  font-family: $ff-inter;
+  font-weight: 400;
+}
+
+.footer__legal {
+  font-family: $ff-montserrat;
+  font-weight: 400;
 }

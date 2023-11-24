@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preload" href="" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/inter-regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css">
   <title></title>
   <meta name="description" content="">
@@ -13,53 +13,55 @@
 
 <body class="page__body">
   <header>
-    <img src="" alt="Логотип Welbex">
-    <span>крупный интегратор CRM в Росcии и ещё 8 странах</span>
+    <div class="logo">
+      <img class="logo__image" src="" alt="Логотип Welbex">
+      <span class="logo__descriptor">крупный интегратор CRM в Росcии и ещё 8 странах</span>
+    </div>
     <nav>
-      <ul>
-        <li><a class="link" href="#">Услуги</a></li>
-        <li><a class="link" href="#">Виджеты</a></li>
-        <li><a class="link" href="#">Интеграции</a></li>
-        <li><a class="link" href="#">Кейсы</a></li>
-        <li><a class="link" href="#">Сертификаты</a></li>
+      <ul class="menu">
+        <li><a class="link menu__link" href="#">Услуги</a></li>
+        <li><a class="link menu__link" href="#">Виджеты</a></li>
+        <li><a class="link menu__link" href="#">Интеграции</a></li>
+        <li><a class="link menu__link" href="#">Кейсы</a></li>
+        <li><a class="link menu__link" href="#">Сертификаты</a></li>
       </ul>
     </nav>
     <address>
-      <a class="link" href="tel:+75555555555">+7 555 555-55-55</a>
+      <a class="phone link" href="tel:+75555555555">+7 555 555-55-55</a>
       <a href="#"><span>Telegram</span></a>
       <a href="#"><span>Viber</span></a>
       <a href="#"><span>WhatsApp</span></a>
     </address>
   </header>
   <main>
-    <hgroup>
-      <h1>Зарабатывайте больше<br> <span class="highlight">с WELBEX</span></h1>
-      <p>Развиваем и контролируем<br> продажи за вас</p>
+    <hgroup class="headline-group">
+      <h1 class="headline-group__headline">Зарабатывайте больше<br> <span class="headline-group__highlighted highlight">с WELBEX</span></h1>
+      <p class="headline-group__subheadline">Развиваем и контролируем<br> продажи за вас</p>
     </hgroup>
-    <section>
-      <h2>Вместе <span class="highlight">с бесплатной консультацией</span> мы дарим:</h2>
+    <section class="offer">
+      <h2 class="offer__headline">Вместе <span class="offer__highlighted highlight">с бесплатной консультацией</span> мы дарим:</h2>
       <ul>
-        <li>Skype аудит</li>
-        <li>30 виджетов</li>
-        <li>Dashboard</li>
-        <li>Месяц аmoCRM</li>
+        <li class="offer__text">Skype аудит</li>
+        <li class="offer__text">30 виджетов</li>
+        <li class="offer__text">Dashboard</li>
+        <li class="offer__text">Месяц аmoCRM</li>
       </ul>
       <ul>
         <li>
-          <dt>Виджеты</dt>
-          <dd>30 готовых решений</dd>
+          <dt class="offer__point">Виджеты</dt>
+          <dd class="offer__text">30 готовых решений</dd>
         </li>
         <li>
-          <dt>Dashboard</dt>
-          <dd>с показателями вашего бизнеса</dd>
+          <dt class="offer__point">Dashboard</dt>
+          <dd class="offer__text">с показателями вашего бизнеса</dd>
         </li>
         <li>
-          <dt>Skype Аудит</dt>
-          <dd>отдела продаж и CRM системы</dd>
+          <dt class="offer__point">Skype Аудит</dt>
+          <dd class="offer__text">отдела продаж и CRM системы</dd>
         </li>
         <li>
-          <dt>35 дней</dt>
-          <dd>использования CRM</dd>
+          <dt class="offer__point">35 дней</dt>
+          <dd class="offer__text">использования CRM</dd>
         </li>
       </ul>
       <button class="button button--cta">Получить консультацию</button>
@@ -69,39 +71,39 @@
     <nav>
       <section>
         <h2 class="footer__headline">О компании</h2>
-        <a class="link" href="#">Партнёрская программа</a>
-        <a class="link" href="#">Вакансии</a>
+        <a class="footer__text link" href="#">Партнёрская программа</a>
+        <a class="footer__text link" href="#">Вакансии</a>
       </section>
       <section>
         <h2 class="footer__headline">Меню</h2>
         <ul>
-          <li><a class="link" href="#">Расчёт стоимости</a></li>
-          <li><a class="link" href="#">Услуги</a></li>
-          <li><a class="link" href="#">Виджеты</a></li>
-          <li><a class="link" href="#">Интеграции</a></li>
-          <li><a class="link" href="#">Наши клиенты</a></li>
-          <li><a class="link" href="#">Благодарность клиентов</a></li>
-          <li><a class="link" href="#">Кейсы</a></li>
-          <li><a class="link" href="#">Сертификаты</a></li>
-          <li><a class="link" href="#">Блог на Youtube</a></li>
-          <li><a class="link" href="#">Вопрос / Ответ</a></li>
+          <li><a class="footer__text link" href="#">Расчёт стоимости</a></li>
+          <li><a class="footer__text link" href="#">Услуги</a></li>
+          <li><a class="footer__text link" href="#">Виджеты</a></li>
+          <li><a class="footer__text link" href="#">Интеграции</a></li>
+          <li><a class="footer__text link" href="#">Наши клиенты</a></li>
+          <li><a class="footer__text link" href="#">Благодарность клиентов</a></li>
+          <li><a class="footer__text link" href="#">Кейсы</a></li>
+          <li><a class="footer__text link" href="#">Сертификаты</a></li>
+          <li><a class="footer__text link" href="#">Блог на Youtube</a></li>
+          <li><a class="footer__text link" href="#">Вопрос / Ответ</a></li>
         </ul>
       </section>
       <section>
         <h2 class="footer__headline">Контакты</h2>
         <address>
-          <a class="link" href="tel:+75555555555">+7 555 555-55-55</a>
+          <a class="phone link" href="tel:+75555555555">+7 555 555-55-55</a>
           <ul>
             <li><a href="#"><span>Telegram</span></a></li>
             <li><a href="#"><span>Viber</span></a></li>
             <li><a href="#"><span>WhatsApp</span></a></li>
           </ul>
         </address>
-        <p>Москва, Путевой проезд 3с1, к 902</p>
+        <p class="footer__text">Москва, Путевой проезд 3с1, к 902</p>
       </section>
     </nav>
-    <small>©WELBEX 2022. Все права защищены.</small>
-    <a class="link" href="#">Политика конфиденциальности</a>
+    <small class="footer__legal">©WELBEX 2022. Все права защищены.</small>
+    <a class="footer__legal link" href="#">Политика конфиденциальности</a>
   </footer>
 </body>
 
