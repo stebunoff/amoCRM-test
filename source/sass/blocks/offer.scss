@@ -1,45 +1,96 @@
+.offer {
+  @media (min-width: 900px) {
+    text-align: right;
+  }
+}
+
 .main .offer {
+  margin-bottom: 59px;
+
   @media (min-width: 900px) {
     margin-left: auto;
+    margin-bottom: 69px;
   }
 }
 
 .offer__headline {
+  margin-bottom: 21px;
+
   font-family: $ff-inter;
   font-weight: 500;
   font-size: 18px;
   line-height: 21.78px;
+
+  @media (min-width: 900px) {
+    margin-bottom: 41px;
+  }
 }
 
 .offer__highlighted {
   font-family: $ff-inter;
   font-weight: 700;
+
+  @media (min-width: 900px) {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
 }
 
 .offer__text {
+  margin-left: 0;
+
   font-family: $ff-montserrat;
   font-weight: 400;
   font-size: 13px;
   line-height: 15.85px;
-  letter-spacing: 1px;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: 900px) {
     font-size: 16px;
     line-height: 19.5px;
   }
 }
 
+.offer__details--mobile .offer__text {
+  position: relative;
+  padding-left: 15px;
+  letter-spacing: 1px;
+
+  &::before {
+    position: absolute;
+    top: 6px;
+    left: 0;
+
+    width: 10px;
+    height: 1px;
+
+    background: $highlight;
+    content: "";
+
+  }
+}
+
 .offer__point {
+  margin-bottom: 6px;
+
   font-family: $ff-inter;
   font-weight: 500;
   font-size: 18px;
   line-height: 21.78px;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
 }
 
 .offer__details {
   &--mobile {
-    @media (min-width: $desktop-width) {
+    @include list-reset;
+
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    row-gap: 14px;
+
+    text-transform: uppercase;
+
+    @media (min-width: 900px) {
       display: none;
     }
   }
@@ -47,8 +98,12 @@
   &--desktop {
     display: none;
 
-    @media (min-width: $desktop-width) {
-      display: block;
+    @media (min-width: 900px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      max-width: 330px;
+      margin-bottom: 63px;
     }
   }
 }
