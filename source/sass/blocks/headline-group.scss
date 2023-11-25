@@ -1,10 +1,19 @@
+.main .headline-group {
+  margin-bottom: 45px;
+}
+
 .headline-group__headline {
+  margin-top: 0;
+  margin-bottom: 16px;
+
   font-family: $ff-inter;
   font-weight: 400;
   font-size: 36px;
   line-height: 43.57px;
 
   @media (min-width: $desktop-width) {
+    margin-bottom: 30px;
+
     font-size: 48px;
     line-height: 58.09px;
   }
@@ -16,6 +25,8 @@
 }
 
 .headline-group__subheadline {
+  margin-top: 0;
+
   font-family: $ff-montserrat;
   font-weight: 400;
   font-size: 18px;

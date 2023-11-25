@@ -1,3 +1,9 @@
+.main .offer {
+  @media (min-width: 900px) {
+    margin-left: auto;
+  }
+}
+
 .offer__headline {
   font-family: $ff-inter;
   font-weight: 500;
