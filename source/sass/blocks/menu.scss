@@ -1,3 +1,26 @@
+.menu {
+  @include list-reset;
+
+  display: flex;
+  gap: 16px;
+  overflow: scroll;
+  padding: 18px 0 19px 0;
+
+  text-transform: uppercase;
+
+  @media (min-width: $desktop-width) {
+    text-transform: none;
+  }
+}
+
+.header .menu {
+  @media (min-width: 940px) {
+    gap: 30px;
+    margin-left: 27px;
+    padding-top: 15px;
+  }
+}
+
 .menu__link {
   font-family: $ff-inter;
   font-weight: 500;

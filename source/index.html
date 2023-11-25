@@ -12,9 +12,9 @@
 </head>
 
 <body class="page__body">
-  <header class="header">
+  <header class="header container">
     <div class="logo">
-      <img class="logo__image" src="" alt="Логотип Welbex">
+      <img class="logo__image" src="img/logo-welbex.svg" width="140" height="24" alt="Логотип Welbex">
       <span class="logo__descriptor">крупный интегратор CRM в Росcии и ещё 8 странах</span>
     </div>
     <nav>
@@ -27,15 +27,15 @@
       </ul>
     </nav>
     <address class="contacts">
-      <a class="phone link" href="tel:+75555555555">+7 555 555-55-55</a>
-      <ul>
-        <li><a href="#"><span class="visually-hidden">Telegram</span></a></li>
-        <li><a href="#"><span class="visually-hidden">Viber</span></a></li>
-        <li><a href="#"><span class="visually-hidden">WhatsApp</span></a></li>
+      <a class="contacts__phone link" href="tel:+75555555555">+7 555 555-55-55</a>
+      <ul class="contacts__social">
+        <li class="contacts__social-item"><a href="#"><svg width="16.68" height="13.99"><use xlink:href="img/sprite.svg#telegram"></use></svg><span class="visually-hidden">Telegram</span></a></li>
+        <li class="contacts__social-item"><a href="#"><svg width="16" height="15.2"><use xlink:href="img/sprite.svg#viber"></use></svg><span class="visually-hidden">Viber</span></a></li>
+        <li class="contacts__social-item"><a href="#"><svg width="16" height="16"><use xlink:href="img/sprite.svg#whatsapp"></use></svg><span class="visually-hidden">WhatsApp</span></a></li>
       </ul>
     </address>
   </header>
-  <main>
+  <main class="container">
     <hgroup class="headline-group">
       <h1 class="headline-group__headline">Зарабатывайте больше<br> <span class="headline-group__highlighted highlight">с WELBEX</span></h1>
       <p class="headline-group__subheadline">Развиваем и контролируем<br> продажи за вас</p>
@@ -69,7 +69,7 @@
       <button class="button button--cta">Получить консультацию</button>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer container">
     <nav>
       <section>
         <h2 class="footer__headline">О компании</h2>

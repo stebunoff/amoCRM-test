@@ -1,7 +1,50 @@
+.contacts {
+  display: flex;
+}
+
 .header .contacts {
+  @media (min-width: 585px) {
+    margin-left: auto;
+  }
+
+  @media (min-width: 1170px) {
+    margin-left: 141px;
+  }
+}
+
+.contacts__phone {
+  display: none;
+  padding-top: 18px;
+
+  font-family: $ff-inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+
+  @media (min-width: 620px) {
+    display: block;
+    padding-top: 15px;
+  }
+}
+
+.contacts__social {
+  @include list-reset;
+
   display: none;
 
-  @media (min-width: $desktop-width) {
-    display: block;
+  @media (min-width: 770px) {
+    display: flex;
+    gap: 30px;
+    margin-left: 44px;
+    padding-top: 17px;
   }
+}
+
+.contacts__social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
 }

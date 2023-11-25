@@ -1,8 +1,19 @@
 .logo {
   display: none;
-  @media (min-width: $desktop-width) {
-    display: block;
+
+  @media (min-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    width: 165px;
   }
+}
+
+.header .logo {
+  margin-top: 11px;
+}
+
+.logo__image {
+  margin-bottom: 10px;
 }
 
 .logo__descriptor {

@@ -1,0 +1,12 @@
+.page__body .header {
+  margin-bottom: 41px;
+
+  @media (min-width: 620px) {
+    display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 46px;
+    margin-bottom: 94px;
+  }
+}
