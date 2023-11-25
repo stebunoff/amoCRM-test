@@ -30,3 +30,19 @@
   line-height: 21.78px;
   letter-spacing: 1px;
 }
+
+.offer__details {
+  &--mobile {
+    @media (min-width: $desktop-width) {
+      display: none;
+    }
+  }
+
+  &--desktop {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+      display: block;
+    }
+  }
+}

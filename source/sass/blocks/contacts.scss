@@ -1,0 +1,7 @@
+.header .contacts {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}

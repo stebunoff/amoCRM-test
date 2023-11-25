@@ -1,3 +1,10 @@
+.logo {
+  display: none;
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
+}
+
 .logo__descriptor {
   font-family: $ff-montserrat;
   font-weight: 300;
