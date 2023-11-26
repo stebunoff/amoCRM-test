@@ -12,7 +12,7 @@
   }
 
   @media (min-width: 1170px) {
-    margin-left: 141px;
+    margin-left: 136px;
   }
 }
 
@@ -40,7 +40,7 @@
 
     @media (min-width: 620px) {
       display: block;
-      padding-top: 18px;
+      padding-top: 15px;
     }
   }
 }
@@ -63,8 +63,9 @@
     display: none;
 
     @media (min-width: 770px) {
+      display: flex;
       gap: 30px;
-      margin-left: 44px;
+      margin-left: 43px;
       padding-top: 17px;
     }
   }
