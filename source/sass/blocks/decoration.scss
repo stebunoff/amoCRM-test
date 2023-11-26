@@ -1,0 +1,96 @@
+.decoration {
+  display: none;
+
+  @media (min-width: 1000px) {
+    display: block;
+  }
+}
+
+.decoration__red-light-ball {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 251px;
+    left: -102px;
+
+    width: 311px;
+    height: 311px;
+
+    background-color: #961A1A;
+    opacity: 50%;
+    filter: blur(150px);
+    border-radius: 50%;
+    content: "";
+  }
+}
+
+.decoration__purple-light-ball {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: -154px;
+    left: 602px;
+
+    width: 259px;
+    height: 259px;
+
+    background-color: #833AB4;
+    opacity: 50%;
+    filter: blur(150px);
+    border-radius: 50%;
+    content: "";
+  }
+}
+
+.decoration__red-big-ball {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 25px;
+    left: 505px;
+
+    width: 100px;
+    height: 100px;
+
+    background-image: url("../img/red-big-ball.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
+}
+
+.decoration__purple-ball {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: -55px;
+    left: 855px;
+
+    width: 80px;
+    height: 80px;
+
+    background-image: url("../img/purple-ball.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
+}
+
+.decoration__red-small-ball {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 489px;
+    left: 837px;
+
+    width: 50px;
+    height: 50px;
+
+    background-image: url("../img/red-ball.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
+}

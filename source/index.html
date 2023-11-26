@@ -12,6 +12,13 @@
 </head>
 
 <body class="page__body">
+  <div class="decoration">
+    <div class="decoration__red-light-ball"></div>
+    <div class="decoration__red-big-ball"></div>
+    <div class="decoration__red-small-ball"></div>
+    <div class="decoration__purple-light-ball"></div>
+    <div class="decoration__purple-ball"></div>
+  </div>
   <header class="header container">
     <div class="logo">
       <img class="logo__image" src="img/logo-welbex.svg" width="140" height="24" alt="Логотип Welbex">
@@ -27,11 +34,11 @@
       </ul>
     </nav>
     <address class="contacts">
-      <a class="contacts__phone link" href="tel:+75555555555">+7 555 555-55-55</a>
-      <ul class="contacts__social">
-        <li class="contacts__social-item"><a href="#"><svg width="16.68" height="13.99"><use xlink:href="img/sprite.svg#telegram"></use></svg><span class="visually-hidden">Telegram</span></a></li>
-        <li class="contacts__social-item"><a href="#"><svg width="16" height="15.2"><use xlink:href="img/sprite.svg#viber"></use></svg><span class="visually-hidden">Viber</span></a></li>
-        <li class="contacts__social-item"><a href="#"><svg width="16" height="16"><use xlink:href="img/sprite.svg#whatsapp"></use></svg><span class="visually-hidden">WhatsApp</span></a></li>
+      <a class="contacts__phone contacts__phone--desktop link" href="tel:+75555555555">+7 555 555-55-55</a>
+      <ul class="contacts__social contacts__social--desktop">
+        <li class="contacts__social-item contacts__social-item--desktop"><a href="#"><svg width="16.68" height="13.99"><use xlink:href="img/sprite.svg#telegram"></use></svg><span class="visually-hidden">Telegram</span></a></li>
+        <li class="contacts__social-item contacts__social-item--desktop"><a href="#"><svg width="16" height="15.2"><use xlink:href="img/sprite.svg#viber"></use></svg><span class="visually-hidden">Viber</span></a></li>
+        <li class="contacts__social-item contacts__social-item--desktop"><a href="#"><svg width="16" height="16"><use xlink:href="img/sprite.svg#whatsapp"></use></svg><span class="visually-hidden">WhatsApp</span></a></li>
       </ul>
     </address>
   </header>
@@ -70,35 +77,37 @@
     </section>
   </main>
   <footer class="footer container">
-    <nav>
+    <nav class="footer__navigation">
       <section>
         <h2 class="footer__headline">О компании</h2>
-        <a class="footer__text link" href="#">Партнёрская программа</a>
-        <a class="footer__text link" href="#">Вакансии</a>
+        <ul class="footer__list">
+          <li><a class="footer__text link" href="#">Партнёрская программа</a></li>
+          <li><a class="footer__text link" href="#">Вакансии</a></li>
+        </ul>
       </section>
       <section>
         <h2 class="footer__headline">Меню</h2>
-        <ul>
+        <ul class="footer__list footer__list--extended">
           <li><a class="footer__text link" href="#">Расчёт стоимости</a></li>
-          <li><a class="footer__text link" href="#">Услуги</a></li>
-          <li><a class="footer__text link" href="#">Виджеты</a></li>
-          <li><a class="footer__text link" href="#">Интеграции</a></li>
-          <li><a class="footer__text link" href="#">Наши клиенты</a></li>
           <li><a class="footer__text link" href="#">Благодарность клиентов</a></li>
+          <li><a class="footer__text link" href="#">Услуги</a></li>
           <li><a class="footer__text link" href="#">Кейсы</a></li>
+          <li><a class="footer__text link" href="#">Виджеты</a></li>
           <li><a class="footer__text link" href="#">Сертификаты</a></li>
+          <li><a class="footer__text link" href="#">Интеграции</a></li>
           <li><a class="footer__text link" href="#">Блог на Youtube</a></li>
+          <li><a class="footer__text link" href="#">Наши клиенты</a></li>
           <li><a class="footer__text link" href="#">Вопрос / Ответ</a></li>
         </ul>
       </section>
       <section>
         <h2 class="footer__headline">Контакты</h2>
-        <address>
-          <a class="phone link" href="tel:+75555555555">+7 555 555-55-55</a>
-          <ul>
-            <li><a href="#"><span class="visually-hidden">Telegram</span></a></li>
-            <li><a href="#"><span class="visually-hidden">Viber</span></a></li>
-            <li><a href="#"><span class="visually-hidden">WhatsApp</span></a></li>
+        <address class="contacts contacts--mobile">
+          <a class="contacts__phone contacts__phone--mobile link" href="tel:+75555555555">+7 555 555-55-55</a>
+          <ul class="contacts__social contacts__social--mobile">
+            <li class="contacts__social-item contacts__social-item--mobile"><a href="#"><svg width="20.02" height="16.79"><use xlink:href="img/sprite.svg#telegram"></use></svg><span class="visually-hidden">Telegram</span></a></li>
+            <li class="contacts__social-item contacts__social-item--mobile"><a href="#"><svg width="20" height="19"><use xlink:href="img/sprite.svg#viber"></use></svg><span class="visually-hidden">Viber</span></a></li>
+            <li class="contacts__social-item contacts__social-item--mobile"><a href="#"><svg width="19.2" height="19.2"><use xlink:href="img/sprite.svg#whatsapp"></use></svg><span class="visually-hidden">WhatsApp</span></a></li>
           </ul>
         </address>
         <p class="footer__text">Москва, Путевой проезд 3с1, к 902</p>

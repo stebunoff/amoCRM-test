@@ -5,8 +5,6 @@
 }
 
 .main .offer {
-  margin-bottom: 59px;
-
   @media (min-width: 900px) {
     margin-left: auto;
     margin-bottom: 69px;
@@ -53,7 +51,7 @@
 .offer__details--mobile .offer__text {
   position: relative;
   padding-left: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
 
   &::before {
     position: absolute;
