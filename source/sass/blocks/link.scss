@@ -1,4 +1,12 @@
 .link {
   color: $text;
   text-decoration: none;
+
+  &:hover {
+    opacity: 70%;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
 }

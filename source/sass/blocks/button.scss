@@ -17,6 +17,16 @@
   &--cta {
     color: $text;
 
-    background-color: $accent;
+    background-color: rgba(64, 119, 243, 1);
+    ;
+
+    &:hover {
+      background-color: rgba(64, 119, 243, 0.7);
+      cursor: pointer;
+    }
+
+    &:active {
+      background-color: rgba(64, 119, 243, 0.3);
+    }
   }
 }

@@ -90,4 +90,12 @@
     width: 20px;
     height: 20px;
   }
+
+  &:hover a svg {
+    opacity: 70%;
+  }
+
+  &:active a svg {
+    opacity: 30%;
+  }
 }
